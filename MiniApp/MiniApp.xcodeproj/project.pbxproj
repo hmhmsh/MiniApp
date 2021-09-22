@@ -52,7 +52,6 @@
 		9CCFD1AF26FB79DE00D642F1 /* MiniAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppUITests.swift; sourceTree = "<group>"; };
 		9CCFD1B126FB79DE00D642F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CCFD1D026FB7AAB00D642F1 /* HomePreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CCFD1D126FB7AAD00D642F1 /* MiniApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MiniApp copy-Info.plist"; path = "/Users/hmhm/Desktop/git/MiniApp/MiniApp/MiniApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		9CCFD1D826FB7BC400D642F1 /* HomeSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +95,6 @@
 				9CCFD1A326FB79DE00D642F1 /* MiniAppTests */,
 				9CCFD1AE26FB79DE00D642F1 /* MiniAppUITests */,
 				9CCFD18B26FB79DD00D642F1 /* Products */,
-				9CCFD1D126FB7AAD00D642F1 /* MiniApp copy-Info.plist */,
 				9CCFD1FD26FB7DCB00D642F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -115,12 +113,12 @@
 		9CCFD18C26FB79DD00D642F1 /* MiniApp */ = {
 			isa = PBXGroup;
 			children = (
-				9CCFD1D626FB7BAD00D642F1 /* Previews */,
 				9CCFD18D26FB79DD00D642F1 /* AppDelegate.swift */,
-				9CCFD18F26FB79DD00D642F1 /* SceneDelegate.swift */,
 				9CCFD19626FB79DE00D642F1 /* Assets.xcassets */,
-				9CCFD19826FB79DE00D642F1 /* LaunchScreen.storyboard */,
 				9CCFD19B26FB79DE00D642F1 /* Info.plist */,
+				9CCFD19826FB79DE00D642F1 /* LaunchScreen.storyboard */,
+				9CCFD1D626FB7BAD00D642F1 /* Previews */,
+				9CCFD18F26FB79DD00D642F1 /* SceneDelegate.swift */,
 			);
 			path = MiniApp;
 			sourceTree = "<group>";
@@ -629,8 +627,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H4CDCWXXYG;
-				INFOPLIST_FILE = "MiniApp copy-Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MiniApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -649,8 +647,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H4CDCWXXYG;
-				INFOPLIST_FILE = "MiniApp copy-Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MiniApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
